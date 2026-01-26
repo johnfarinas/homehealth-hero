@@ -1,0 +1,104 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "OASIS & HIS Coding",
+      "description": "Our certified coders ensure accurate OASIS assessments and HIS coding, maximizing reimbursement while maintaining compliance. We handle SOC, ROC, Recert, Transfer, and Discharge assessments with precision.",
+      "category": "coding",
+      "icon": "clipboard-check"
+    },
+    {
+      "id": 2,
+      "title": "Clinical Documentation QA",
+      "description": "Comprehensive quality assurance reviews of clinical documentation to ensure regulatory compliance, accurate coding, and optimal outcomes. Our team catches errors before they become costly problems.",
+      "category": "quality-assurance",
+      "icon": "shield-check"
+    },
+    {
+      "id": 3,
+      "title": "Revenue Cycle Management",
+      "description": "End-to-end revenue cycle support from billing to collections. We optimize your cash flow, reduce denials, and accelerate payment cycles while you focus on patient care.",
+      "category": "revenue",
+      "icon": "trending-up"
+    },
+    {
+      "id": 4,
+      "title": "Virtual Admin Support",
+      "description": "Dedicated virtual administrative assistants to handle scheduling, phone support, data entry, and other non-clinical tasks. Scale your support team without the overhead of full-time staff.",
+      "category": "administration",
+      "icon": "users"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "quote": "HomeHealthHero transformed our coding accuracy and cut our TAT in half. Their team feels like an extension of our own clinical staff.",
+      "authorName": "Sarah Jenkins",
+      "authorTitle": "Director of Clinical Operations",
+      "company": "Evergreen Home Health",
+      "avatar": "https://i.pravatar.cc/150?u=sarah-jenkins",
+      "logo": "https://placehold.co/200x100"
+    },
+    {
+      "id": 2,
+      "quote": "We were drowning in documentation backlogs. HomeHealthHero's QA team not only caught up but helped us implement processes that keep us ahead.",
+      "authorName": "David Chen",
+      "authorTitle": "VP of Operations",
+      "company": "Sunrise Hospice Care",
+      "avatar": "https://i.pravatar.cc/150?u=david-chen",
+      "logo": "https://placehold.co/200x100"
+    }
+  ],
+  "statistics": [
+    {
+      "id": 1,
+      "label": "Certified Coders",
+      "value": "450+",
+      "description": "Expert coders on our team"
+    },
+    {
+      "id": 2,
+      "label": "Charts Processed",
+      "value": "15M+",
+      "description": "Total charts processed annually"
+    },
+    {
+      "id": 3,
+      "label": "Accuracy Rate",
+      "value": "99.2%",
+      "description": "Coding accuracy maintained"
+    },
+    {
+      "id": 4,
+      "label": "Average TAT",
+      "value": "<12 hrs",
+      "description": "Turnaround time for coding"
+    }
+  ],
+  "hero-content": [
+    {
+      "id": 1,
+      "headline": "Empowering Home Health & Hospice Agencies with Clinical Excellence",
+      "subheadline": "Expert OASIS coding, clinical documentation QA, and revenue cycle management—so you can focus on exceptional patient care.",
+      "ctaPrimary": "Connect With Us",
+      "ctaSecondary": "Play Video"
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "address1": "1200 Healthcare Plaza, Ste 200",
+      "city1": "Tampa",
+      "state1": "FL",
+      "zip1": "33602",
+      "phone1": "1-800-HERO-HHA (4376-442)",
+      "address2": "9933 Lawler Ave. Ste. 332",
+      "city2": "Skokie",
+      "state2": "IL",
+      "zip2": "60077",
+      "phone2": "1 (312) 889-0670",
+      "email": "solutions@homehealthhero.com"
+    }
+  ],
+  "contact-submissions": []
+}
