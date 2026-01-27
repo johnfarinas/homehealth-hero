@@ -90,26 +90,26 @@ importers:
         specifier: ^1.2.7
         version: 1.2.8(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@refinedev/cli':
-        specifier: ^2.16.49
-        version: 2.16.49(@types/node@20.17.17)(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: ^2.16.50
+        version: 2.16.50(@types/node@20.17.17)(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@refinedev/core':
         specifier: ^5.0.8
         version: 5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@refinedev/kbar':
-        specifier: ^2.0.0
-        version: 2.0.0(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: ^2.0.1
+        version: 2.0.1(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@refinedev/react-hook-form':
         specifier: ^5.0.4
         version: 5.0.4(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react-hook-form@7.64.0(react@19.2.0))(react@19.2.0)
       '@refinedev/react-router':
-        specifier: ^2.0.2
-        version: 2.0.2(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react-router@7.9.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react@19.2.0)
+        specifier: ^2.0.3
+        version: 2.0.3(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react-router@7.9.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react@19.2.0)
       '@refinedev/react-table':
-        specifier: ^6.0.0
-        version: 6.0.0(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(@tanstack/react-table@8.21.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: ^6.0.1
+        version: 6.0.1(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(@tanstack/react-table@8.21.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@refinedev/rest':
-        specifier: ^2.1.0
-        version: 2.1.0(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))
+        specifier: ^2.1.1
+        version: 2.1.1(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))
       '@tailwindcss/vite':
         specifier: 4.1.8
         version: 4.1.8(vite@6.3.5(@types/node@20.17.17)(jiti@2.6.1)(lightningcss@1.30.1))
@@ -1334,8 +1334,8 @@ packages:
   '@reach/observe-rect@1.2.0':
     resolution: {integrity: sha512-Ba7HmkFgfQxZqqaeIWWkNK0rEhpxVQHIoVyW1YDSkGsGIXzcaW4deC8B0pZrNSSyLTdIk7y+5olKt5+g0GmFIQ==}
 
-  '@refinedev/cli@2.16.49':
-    resolution: {integrity: sha512-yHV+BNKRRmascLe66oemsRi64SXPkVROs63sesqom7Jra89am0E5IXALbKX6Nn9awoF1bVID8zyAA1FXBIt/kA==}
+  '@refinedev/cli@2.16.50':
+    resolution: {integrity: sha512-cPxCUB6vjYKbBbEQqY2JLENmPE9fneqTB7ZQRv7Hy1teF+hn4Q0iNH24C07JHZ5LSXnH98SXhgnUeUvNLRXPFQ==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -1358,19 +1358,10 @@ packages:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
 
-  '@refinedev/devtools-server@2.0.0':
-    resolution: {integrity: sha512-IyuM6yg/4IhwMTK7pRR/kt1R37DDU8FrEfDl+pzP4SL7DXm0gKiR+YK5wCMQcw/qwHANv2caDFac1pQatINvQw==}
+  '@refinedev/devtools-server@2.0.1':
+    resolution: {integrity: sha512-BgP0A+Ag4njZ5I2GKCEYaLbYZ5AvDBBaL5xhlDnYxSwVQI7yMi5tH5vFsr2cveW5MyuLZBn7KDTyKYUVO3EnAQ==}
     engines: {node: '>=20'}
     hasBin: true
-    peerDependencies:
-      '@types/react': ^18.0.0 || ^19.0.0
-      '@types/react-dom': ^18.0.0 || ^19.0.0
-      react: ^18.0.0 || ^19.0.0
-      react-dom: ^18.0.0 || ^19.0.0
-
-  '@refinedev/devtools-shared@2.0.0':
-    resolution: {integrity: sha512-wZCANG8ZBKcEHb9dCmNE40cqpw8LT/ujv1/xyV9XgNEIJJIKDe0HunqCiBimbyowzAtdrWqM3X3X5UwgQze9ug==}
-    engines: {node: '>=20'}
     peerDependencies:
       '@types/react': ^18.0.0 || ^19.0.0
       '@types/react-dom': ^18.0.0 || ^19.0.0
@@ -1386,8 +1377,8 @@ packages:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
 
-  '@refinedev/kbar@2.0.0':
-    resolution: {integrity: sha512-9ZM6+OUEg6xv8nl09qeoMGkAdwzVpCllcjy/CJh5zaU4nh/JX0R8gEQ+P3F7gvQ9wo1P7ahHo9i1ib82ULAEKw==}
+  '@refinedev/kbar@2.0.1':
+    resolution: {integrity: sha512-QaURCSdm2YV5m169zdgoW51QSgS68InZkiqLTg4W2AB8N23or+aP8xMEPrUpWn5haZOIf0AyQP/PRBme+iGTkA==}
     engines: {node: '>=20'}
     peerDependencies:
       '@refinedev/core': ^5.0.0
@@ -1405,8 +1396,8 @@ packages:
       react-dom: ^18.0.0 || ^19.0.0
       react-hook-form: ^7.57.0
 
-  '@refinedev/react-router@2.0.2':
-    resolution: {integrity: sha512-EERz4+wXGsBRkVpbRvFS/5echhmPqhF8968nSdA5EecnxFpOg3Auh2joEFoIS7AysxdYSR7rguQ0husirFBvJw==}
+  '@refinedev/react-router@2.0.3':
+    resolution: {integrity: sha512-pQ/IOJJckXHIVQD2+Q220pOlGfLcDPJgpmyI4SzAhfuISeQprWsZrPDL/uLuqYosjJ+T5fWSq67tj1Bq0GMAsA==}
     engines: {node: '>=20'}
     peerDependencies:
       '@refinedev/core': ^5.0.0
@@ -1416,8 +1407,8 @@ packages:
       react-dom: ^18.0.0 || ^19.0.0
       react-router: ^7.0.2
 
-  '@refinedev/react-table@6.0.0':
-    resolution: {integrity: sha512-/oB8Dgyw/VyRQsn3ukPGszZzw0yPIUKJ4ftWSvCfJ8jWxRuluDnMICFN32lM+fdfSrgN2NUqN6kk62KeKZjKCQ==}
+  '@refinedev/react-table@6.0.1':
+    resolution: {integrity: sha512-V9dNUFBwzTPEtySMdRvpx0mxdtwKai9thB9suihPcCEWpw8eZSoU9q493Mdxf+bnqiyL7bgwFESRFPaFoPHnkQ==}
     engines: {node: '>=20'}
     peerDependencies:
       '@refinedev/core': ^5.0.0
@@ -1425,8 +1416,8 @@ packages:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
 
-  '@refinedev/rest@2.1.0':
-    resolution: {integrity: sha512-VG3jYdTWThCpAUysbe/lwERP/RpGG/zJAq9o4BCVpxtFxb8En9JsqaqBmIpGqC9H4oMGY/DNNo4WSA6R2HwbFQ==}
+  '@refinedev/rest@2.1.1':
+    resolution: {integrity: sha512-FvGanLHqzimqQ4Tmj++3qpipuhHnaOEjW2z2mOlzeBofjbjQhUSsKzy/SpxjNyIdP37PkA2q7zVid0wz3k42Bw==}
     engines: {node: '>=20'}
     peerDependencies:
       '@nestjsx/crud-request': ^5.0.0-alpha.3
@@ -5291,10 +5282,10 @@ snapshots:
 
   '@reach/observe-rect@1.2.0': {}
 
-  '@refinedev/cli@2.16.49(@types/node@20.17.17)(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@refinedev/cli@2.16.50(@types/node@20.17.17)(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@npmcli/package-json': 5.2.1
-      '@refinedev/devtools-server': 2.0.0(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@refinedev/devtools-server': 2.0.1(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       boxen: 5.1.2
       camelcase: 6.3.0
       cardinal: 2.1.1
@@ -5368,9 +5359,9 @@ snapshots:
       react: 19.2.0
       react-dom: 19.2.0(react@19.2.0)
 
-  '@refinedev/devtools-server@2.0.0(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@refinedev/devtools-server@2.0.1(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
-      '@refinedev/devtools-shared': 2.0.0(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@refinedev/devtools-shared': 2.0.1(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@types/react': 19.2.2
       '@types/react-dom': 19.2.1(@types/react@19.2.2)
       body-parser: 1.20.3
@@ -5402,15 +5393,6 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@refinedev/devtools-shared@2.0.0(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
-    dependencies:
-      '@tanstack/react-query': 5.90.2(react@19.2.0)
-      '@types/react': 19.2.2
-      '@types/react-dom': 19.2.1(@types/react@19.2.2)
-      error-stack-parser: 2.1.4
-      react: 19.2.0
-      react-dom: 19.2.0(react@19.2.0)
-
   '@refinedev/devtools-shared@2.0.1(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@tanstack/react-query': 5.90.2(react@19.2.0)
@@ -5420,7 +5402,7 @@ snapshots:
       react: 19.2.0
       react-dom: 19.2.0(react@19.2.0)
 
-  '@refinedev/kbar@2.0.0(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@refinedev/kbar@2.0.1(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@refinedev/core': 5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       kbar: 0.1.0-beta.40(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -5441,7 +5423,7 @@ snapshots:
       react-dom: 19.2.0(react@19.2.0)
       react-hook-form: 7.64.0(react@19.2.0)
 
-  '@refinedev/react-router@2.0.2(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react-router@7.9.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react@19.2.0)':
+  '@refinedev/react-router@2.0.3(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react-router@7.9.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@refinedev/core': 5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@types/react': 19.2.2
@@ -5451,7 +5433,7 @@ snapshots:
       react-dom: 19.2.0(react@19.2.0)
       react-router: 7.9.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
 
-  '@refinedev/react-table@6.0.0(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(@tanstack/react-table@8.21.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@refinedev/react-table@6.0.1(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(@tanstack/react-table@8.21.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@refinedev/core': 5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@tanstack/react-table': 8.21.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -5460,7 +5442,7 @@ snapshots:
       react: 19.2.0
       react-dom: 19.2.0(react@19.2.0)
 
-  '@refinedev/rest@2.1.0(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))':
+  '@refinedev/rest@2.1.1(@refinedev/core@5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))':
     dependencies:
       '@refinedev/core': 5.0.8(@tanstack/react-query@5.90.2(react@19.2.0))(@types/react-dom@19.2.1(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       deepmerge: 4.3.1
@@ -6005,7 +5987,7 @@ snapshots:
       json-schema-typed: 7.0.3
       onetime: 5.1.2
       pkg-up: 3.1.0
-      semver: 7.5.2
+      semver: 7.7.2
 
   content-disposition@0.5.4:
     dependencies:

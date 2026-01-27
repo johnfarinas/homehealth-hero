@@ -16,6 +16,7 @@ import { dataProvider } from "@/providers/data";
 
 import { LandingPage } from "@/pages/landing-page";
 import { ContactPage } from "@/pages/contact";
+import { AboutPage } from "@/pages/about";
 import { ServicesList } from "@/pages/services/list";
 import { ServicesCreate } from "@/pages/services/create";
 import { ServicesEdit } from "@/pages/services/edit";
@@ -65,6 +66,8 @@ const App = () => {
 
           {/* Public Contact Page */}
           <Route path="/contact" element={<ContactPage />} />
+          {/* Public About Page */}
+          <Route path="/about" element={<AboutPage />} />
 
           {/* Admin Routes */}
           <Route

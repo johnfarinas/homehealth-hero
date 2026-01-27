@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
@@ -7,6 +7,7 @@ export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -42,6 +43,12 @@ export const Navbar = () => {
   }, [isMobileMenuOpen]);
 
   const scrollToSection = (sectionId: string) => {
+    if (location.pathname !== "/") {
+      navigate(`/#${sectionId}`);
+      setIsMobileMenuOpen(false);
+      return;
+    }
+
     const element = document.getElementById(sectionId);
     if (element) {
       const offset = 80; // Navbar height offset
@@ -72,7 +79,13 @@ export const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <button
-              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              onClick={() => {
+                if (location.pathname !== "/") {
+                  navigate("/");
+                  return;
+                }
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
               className="flex items-center gap-2 group transition-all duration-300 ease-out">
               <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-gradient-to-br from-[#0A4D8C] to-[#00A9A5] flex items-center justify-center shadow-md group-hover:shadow-xl transition-all duration-300 ease-out group-hover:scale-110">
                 <span className="text-white font-bold text-lg sm:text-xl">HH</span>
@@ -88,6 +101,12 @@ export const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
+            <Link
+              to="/about"
+              className="text-gray-700 hover:text-[#0A4D8C] font-medium transition-all duration-300 ease-out relative group text-sm lg:text-base whitespace-nowrap hover:scale-105">
+              About
+              <span className="absolute left-0 right-0 bottom-0 h-0.5 bg-[#0A4D8C] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left" />
+            </Link>
             {navLinks.map((link) => (
               <button
                 key={link.sectionId}
@@ -141,6 +160,12 @@ export const Navbar = () => {
               {link.label}
             </button>
           ))}
+          <Link
+            to="/about"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="block w-full text-left px-4 py-3 text-gray-700 hover:text-[#0A4D8C] hover:bg-[#0A4D8C]/5 rounded-lg font-medium transition-all duration-300 ease-out touch-manipulation active:scale-95 hover:scale-[1.02] hover:shadow-sm">
+            About
+          </Link>
           <Link
             to="/contact"
             onClick={() => setIsMobileMenuOpen(false)}

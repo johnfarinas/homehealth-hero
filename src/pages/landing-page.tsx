@@ -26,6 +26,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
+import { useLocation } from "react-router";
 import type { HeroContent, Statistic, Service, Testimonial } from "@/types";
 import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
@@ -43,6 +44,7 @@ export const LandingPage = () => {
   const [carouselApi, setCarouselApi] = useState<any>(null);
   const [hasAnimated, setHasAnimated] = useState(false);
   const statsRef = useRef<HTMLDivElement>(null);
+  const location = useLocation();
 
   const { query: heroQuery } = useList<HeroContent>({
     resource: "hero-content",
@@ -84,6 +86,16 @@ export const LandingPage = () => {
       });
     }
   };
+
+  useEffect(() => {
+    if (!location.hash) return;
+    const sectionId = location.hash.replace("#", "");
+    if (!sectionId) return;
+
+    requestAnimationFrame(() => {
+      scrollToSection(sectionId);
+    });
+  }, [location.hash]);
 
   // Map icon names to lucide-react components
   const serviceIconMap: Record<string, React.ElementType> = {
@@ -392,11 +404,12 @@ export const LandingPage = () => {
       {/* Statistics Bar */}
       <section
         ref={statsRef}
-        className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 via-white to-gray-50 relative overflow-hidden">
+        className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#F2F7FB] via-white to-[#EFFAF8] relative overflow-hidden">
         {/* Background Decorative Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-0 right-1/4 w-96 h-96 bg-[#0A4D8C]/5 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-[#00A9A5]/5 rounded-full blur-3xl"></div>
+          <div className="absolute top-1/3 left-10 w-72 h-72 bg-[#F39A3D]/6 rounded-full blur-3xl"></div>
         </div>
 
         <div className="max-w-7xl mx-auto relative z-10">
