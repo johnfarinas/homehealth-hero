@@ -36,7 +36,7 @@
       "authorName": "Sarah Jenkins",
       "authorTitle": "Director of Clinical Operations",
       "company": "Evergreen Home Health",
-      "avatar": "https://i.pravatar.cc/150?u=sarah-jenkins",
+      "avatar": "https://i.pravatar.cc/150?img=47",
       "logo": "https://placehold.co/200x100"
     },
     {
@@ -45,9 +45,19 @@
       "authorName": "David Chen",
       "authorTitle": "VP of Operations",
       "company": "Sunrise Hospice Care",
-      "avatar": "https://i.pravatar.cc/150?u=david-chen",
+      "avatar": "https://i.pravatar.cc/150?img=53",
+      "logo": "https://placehold.co/200x100"
+    },
+    {
+      "id": 3,
+      "quote": "We were drowning in documentation backlogs. HomeHealthHero's QA team not only caught up but helped us implement processes that keep us ahead.",
+      "authorName": "Nathan Lopez",
+      "authorTitle": "Director of Clinical Operations",
+      "company": "Santorini Home Health",
+      "avatar": "https://i.pravatar.cc/150?img=61",
       "logo": "https://placehold.co/200x100"
     }
+    
   ],
   "statistics": [
     {
