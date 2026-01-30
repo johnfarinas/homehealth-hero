@@ -31,6 +31,7 @@ import type { HeroContent, Statistic, Service, Testimonial } from "@/types";
 import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
 import { VideoModal } from "@/components/video-modal";
+import nurseGreyBg from "@/images/nurse-grey-bg.jpg";
 
 const iconMap = {
   "Certified Coders": Users,
@@ -308,7 +309,7 @@ export const LandingPage = () => {
                     <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl border-4 border-white/40 ring-2 ring-white/20 ring-offset-2 ring-offset-transparent">
                       {/* Optimized Image with better loading strategy */}
                       <img
-                        src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+                        src={nurseGreyBg}
                         alt="Professional female virtual health assistant providing expert healthcare support with a friendly smile"
                         className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                         loading="eager"
